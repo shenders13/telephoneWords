@@ -43,4 +43,14 @@ The solution is written in JavaScript. I've used the Mocha and Chai testing suit
     - set output to newOutput
  - return output
  
- ### Time Complexity
+ ### Time Complexity Discussion
+ 
+ The time complexity of the telephoneWords algorithm is kind of weird to consider.
+ - We iterate through the input array once.
+ - Inside this loop we iterate through the output array which grows as the program runs. The output array triples (or 4x if the button pressed is 7 or 9) in length every time we increment in the outer loop.
+ 
+ This makes the time complexity of the algorithm exponential. 
+ 
+  ### Get in touch
+ 
+ If you can spot any bugs in the code, or untrue statements in the read me, please make an issue on this repo.
