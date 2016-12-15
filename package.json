@@ -1,0 +1,23 @@
+{
+  "name": "telephone-words",
+  "version": "1.0.0",
+  "description": "Given a list of integers, print out all possible words that can be spelled by using the telephone letter mapping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenders13/telephoneWords.git"
+  },
+  "author": "Sam Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenders13/telephoneWords/issues"
+  },
+  "homepage": "https://github.com/shenders13/telephoneWords#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
