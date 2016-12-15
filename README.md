@@ -29,3 +29,18 @@ The solution is written in JavaScript. I've used the Mocha and Chai testing suit
     "9": ['W', 'X', 'Y', 'Z']
   };`
 
+### Step 2: Add letters associated with the first input integer straight away.
+
+`var output = library[integerArray[0].toString()];`
+
+### Step 3: Iterate through input array of integers.
+
+- for each of the letters arrays (correspondingLettersArray)
+    - make a copy of where the output array is up to (oldOutput)
+    - iterate through oldOutput array
+        - add the letter we are up to in correspondingLettersArray to the end of each block in oldOutput array
+        - push the new block to a new array called newOutput
+    - set output to newOutput
+ - return output
+ 
+ ### Time Complexity
